@@ -14,6 +14,7 @@ public class Response
 
     public Response(String message) {
          this.message = message;
+         this.succed = false;
     }
 
     public boolean isSucced() {

@@ -213,7 +213,7 @@ public class FrmNewUser extends javax.swing.JDialog {
         }
         else
         {
-            JOptionPane.showMessageDialog(rootPane, "ERROR: " + response.getMesssage());
+            JOptionPane.showMessageDialog(rootPane, "ERROR: " + response.getMessage());
         }
         
         
